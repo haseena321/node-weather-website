@@ -1,4 +1,4 @@
-console.log('client side javascript file is loaded')
+// console.log('client side javascript file is loaded')
 // fetch('http://puzzle.mead.io/puzzle').then((response) => {
 //     response.json().then((data) => {
 //         console.log(data)
@@ -23,7 +23,7 @@ const messageTwo = document.querySelector('#message-2')
 // messageOne.textContent = 'From Javs Script'
 // messageTwo.textContent = 'From Java script for para'
 weatherForm.addEventListener('submit', (e) => {
-    
+
     e.preventDefault()
 
     const location = search.value
